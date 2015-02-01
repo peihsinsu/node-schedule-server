@@ -2,6 +2,9 @@ Node REST Schedule Service
 ====
 
 This program is focus to start a scheduler server that provide restful api endpoint for control the job input and out put. We still not consider the job data persistence, now. You can fork and implement the persistence in the lib/schedular.js file. 
+
+In default, the scheduler will just console out a message for display, we enhance the server to have plugin to enable other notification when the time event triggered. You can see the worker session to implement and call a worker in scheduler.
+
 Welcome to feedback me.
 
 ## Installation
