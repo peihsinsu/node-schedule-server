@@ -11,6 +11,7 @@ Welcome to feedback me.
 
 ```
 $ git clone git@github.com:peihsinsu/node-schedule-server.git $project_home
+$ cd $project_home && npm install
 ```
 
 ## Start Service
