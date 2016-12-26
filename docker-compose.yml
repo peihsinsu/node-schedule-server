@@ -1,0 +1,17 @@
+db:
+  restart: always
+  image: mysql 
+  container_name: db 
+  volumes:
+    - /Users/peihsinsu/project/github-projects/node-schedule-server/init/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+  environment:
+    - MYSQL_ROOT_PASSWORD=1234qwer
+  ports:
+    - "3306:3306"
+    - "3000:3000"
+
+nscheduler:
+  restart: always
+  image: peihsinsu/nscheduler
+  container_name: nscheduler
+  net: container:db

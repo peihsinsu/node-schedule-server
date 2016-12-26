@@ -12,11 +12,14 @@
     "debug": "~2.1.1",
     "ejs": "~2.2.3",
     "express": "~4.11.1",
+    "moment": "^2.9.0",
     "morgan": "~1.5.1",
+    "mysql": "^2.5.4",
     "node-schedule": "^0.1.15",
     "node-uuid": "^1.4.2",
     "nodeutil": "0.0.46",
     "request": "^2.51.0",
-    "serve-favicon": "~2.2.0"
+    "serve-favicon": "~2.2.0",
+    "underscore": "^1.7.0"
   }
 }
